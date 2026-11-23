@@ -16,6 +16,9 @@ iOSアプリのサポートページ・プライバシーポリシー・利用�
 - HabitBoard：https://bon096.github.io/app-support/habitboard/
   - プライバシーポリシー：https://bon096.github.io/app-support/habitboard/privacy.html
   - 利用規約：https://bon096.github.io/app-support/habitboard/terms.html
+- いえごと：https://bon096.github.io/app-support/iegoto/
+  - プライバシーポリシー：https://bon096.github.io/app-support/iegoto/privacy.html
+  - 利用規約：https://bon096.github.io/app-support/iegoto/terms.html
 - BatteryWatch：https://bon096.github.io/app-support/batterywatch/（privacy.html）
 - おくすりシートカレンダー：https://bon096.github.io/app-support/photodiary/（privacy.html）
 - チンチロ：https://bon096.github.io/app-support/chinchiro/（privacy.html）
@@ -26,7 +29,7 @@ iOSアプリのサポートページ・プライバシーポリシー・利用�
 
 - 旧 `XXX-support` リポジトリ（habitboard-support／batterywatch-support／photodiary-support／chinchiro-support／roulette-support／swissdraw-support）から移行した。
 - 旧リポジトリの `privacy-policy.html` は、集約後は `privacy.html` に統一した。
-- `app-ads.txt` は全アプリ同一内容（同じAdMobパブリッシャーID）のため、ルートに1部置き、各アプリフォルダにも控えを置いている。
+- `app-ads.txt` は app-support には置かない。検証に効くのはドメインルート（https://bon096.github.io/app-ads.txt、bon096.github.io リポジトリ）のみのため、そちらで一元管理する（2026-11-23に app-support 側の控え6件を削除済み）。
 
 ## 新しいアプリを追加するとき
 
